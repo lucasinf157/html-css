@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Âncoras e links</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1>Usando links externos</h1>
+<!--link que vai apontar pra outro site{que não é nosso}-->
+<body>
+    <p>Você pode <a href="https://github.com/lucasinf157" target="_blank" rel="external">acessar meu perfil no github</a> e acompanhar meus projetos</p>
+    <p>Você também pode acessar meu <a href="https://www.instagram.com/lucaascastro71/" target="_blank" rel="external">instagram pessoal</a>, para conhecer melhor meu trabalho</p>
+    <h2>Usando links internos</h2>
+    <p>Essa é a primeira página do meu site, se você quiser, pode acessar a minha <a href="pag002.html" target="_blank" rel="next"> <abbr title="página 002">segunda página</abbr></a>
+
+    <!--Testando o target self, coloquei apenas para demonstrar e significar para o navegador e sistema que quero que não crie uma nova aba neste tipo de situação(DANDO SIGNIFICADO)-->
+    <p>Você também pode acessar o portal de <a href="noticias/pag003.html" target="_self">Notícias</a></p>
+
+    <!--Testei aqui também a abertura de uma nova aba em uma pasta dentro do ex010, que ficou muito bom e de fácil manuseio-->
+
+    <h2>Links para download</h2>
+
+    <ul>
+        <!--ARQUIVOS COLOCADOS COM .PDF NO FINAL NÂO CONSEGUIMOS EXPORTAR PRA DOWNLOAD-->
+        <li><a href="livro/meulivro.pdf" rel="external" download="meulivro.pdf" type="application/pdf">Baixar o livro PDF</a></li>
+        <!--Arquivos pdf não vai-->
+        <!--ARQUIVOS EXPORTADOS EM ZIP SÃO LIBERADOS PARA DOWNLOAD :)-->
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip" >Baixar o livro ZIP(Compactado)</a></li>
+        <li><a href="livro/rovante.zip" download="rovante.zip" type="application.zip">Arquivo pdf de comprovante aleatório</a></li>
+    </ul>
+    <ol>
+        <li><a href="serestadohc6.0.rar" rel="external" download="serestadohc6.0.rar" type="application/rar">Donwload das músicas do hc</a></li>
+    </ol>
+
+
+</body>
+</html>

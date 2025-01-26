@@ -1,0 +1,25 @@
+Conteudos periféricos
+
+Aside- tag orientada a "mais informações", não sobre o conteúdo
+
+aside
+{
+    background-color: #83e1ad;       cor do box
+    padding: 10px;              organizar box
+    border-radius: 10px;      colocar arrendodamento de quadro
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.326);    colocar sombra no box
+}
+aside > h3
+{
+    background-color: #1a5c37; cor do box do titulo
+    color: white; cor da letras
+    padding: 10px; organizar box
+    margin: -10px -10px 0px -10px;  colocar bordas pra fora
+    border-radius: 10px 10px 0px 0px; arredondar bordas
+}
+aside > ul
+{
+    list-style-type: '\2714\00a0\00a0'; 00a0 = para colocar espaço nos emojis/ 2714= para emojis
+    list-style-position: inside; - para coloar bolinhas da UL dentro do box
+    columns: 2; para quebrar uls e adiciona-las em colunas
+}

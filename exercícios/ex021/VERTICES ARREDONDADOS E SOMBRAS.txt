@@ -1,0 +1,12 @@
+CRIANDO SOMBRAS
+
+box-shadow 1px 1px 1px 1px black 
+inset e outset
+Vertices Arredondados
+ main
+            {
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+               ***** border-radius: 10px 0px;
+                box-shadow: 4px 4px 9px 0px rgba(191, 188, 188, 0.414); *****

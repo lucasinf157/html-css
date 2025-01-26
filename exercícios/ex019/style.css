@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*id em HTML é # em CSS*/
+/*class em HTML é . em CSS*/
+/*class posso ter vários elementos*/
+/*id só posso ter um*/
+body {
+    background-color: #b9f6b9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    color: #079007
+}
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+#principal2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+p
+{
+    text-align: justify;
+}
+.basic
+{
+color: #079007;
+}
+.interme {
+color: rgb(245, 189, 6);
+}
+.avançado {
+color: blue;
+}
+.destaque {
+    font-weight: bold;
+}
+.italico {
+    font-style: italic;
+}

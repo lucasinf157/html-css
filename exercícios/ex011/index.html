@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <style> body
+            {background-color: bisque;}
+    
+    </style>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes 
+        ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+    <picture>
+        <!--A ordem interfere muito, Imagens de px menor sempre vem acima das maiores -->
+        <source media="(max-width: 700px )" srcset="imagens/imgp.png" type="image/png">
+        <!--colocar o px da imagem sempre, e 50px a mais para excluir barra de rolagem-->
+        <source media="(max-width: 1050px)" srcset="imagens/imgm.png" type="image/png">
+        <img src="imagens/imgg.png" alt="imagem flexível">
+    </picture>
+    <h2>Agora vou fazer com minha foto</h2>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/lucasgimppfoto.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/lucasgimpmfoto.jpg" type="image/jpg">
+        <img src="imagens/lucasgimpgfoto.jpg" alt="Imagem flexível">
+    </picture>
+    <h2>Agora vou testar tamanhos maiores</h2>
+    <!--Fiz sozinho :)-->
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/ORIGINALP.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/ORIGINALM.png" type="image/png">
+        <img src="imagens/IMAGEMG.png" alt="Imagens Flexíveis">
+    </picture>
+     <h2>Reproduzindo áudio</h2>
+     <p>Vamos aprender a reproduzir áudio em HTML5<p>
+        <audio preload="metadata" controls>
+            <!--O sistema tenta executar estes arquivos em ordem...-->
+            <source src="midias/14 - NOME PROIBIDO.mp3" type="audio/mpeg">
+            <!--TER TODAS AS COMPATIBILIDADES, TIPO ESSAS..-->
+            <source src="midias/14 - NOME PROIBIDO.wav" type="audio/wav">
+            <source src="midias/14 - NOME PROIBIDO.ogg" type="audio/ogg">
+            <!--PARA COLOCAR PRA FAZER DOWNLOAD-->
+            <p><a href="midias/nomeproibidohc.zip">Clique aqui para fazer download</a></p>
+        </audio>
+</body>
+</html>

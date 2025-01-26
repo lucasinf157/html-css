@@ -1,0 +1,9 @@
+Versionamento de software
+GIT E GITHUB
+
+Repositórios :
+
+Servem para guardar versões do site, assim podendo modificar quantas vezes quiser  (Dentro do meu computador)
+
+repositório local - git - guardar versões do meu projeto no meu computador
+repositório remoto - GitHub - guardar versões do meu projeto na nuvem, para usuários verem

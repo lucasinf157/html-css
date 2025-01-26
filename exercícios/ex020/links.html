@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    
+</head>
+<style>
+    /* 
+    SELETORES PERSONALIZADOS
+    # = id
+    . = class
+    := pseudoclass
+    ::=pseudo element
+    > = clildren
+    */
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a
+    {
+        color: rgb(255, 10, 10);
+        text-decoration: none;
+        font-weight: bold;
+        
+        
+    }
+    a:visited 
+    {
+        color: rgb(143, 4, 4);
+    }
+    a:hover {
+        text-decoration: underline;
+        color: black;
+        
+    }
+    a:active{
+        color: aqua;
+    }
+    a::after{
+        content: '❮';
+        text-decoration: none;
+        font-weight: normal;
+        color: rgb(27, 18, 4);
+    }
+    
+    a::before {
+        content: '❯';
+        text-decoration: none;
+        font-weight: normal;
+        color: rgb(27, 18, 4);
+    }
+    .linkdestaque{
+        font-weight: bolder;
+        background-color: greenyellow;
+    }
+
+    main
+    {
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #59564696;
+        margin-inline: 1px;
+
+    }
+</style>
+<body>
+    <h1>Personalizando Links</h1>
+<ul>
+    <li><a href="https://github.com/lucasinf157">Perfil github</a></li>
+    <li><a href="https://www.instagram.com/lucascstr01/" class="linkdestaque">Perfil instagram</a></li>
+    <li><a class="linkdestaque" ="https://www.youtube.com/@Luwoslatt">Canal do youtube</a></li>
+</ul>
+
+<main>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates fugiat necessitatibus adipisci id, beatae recusandae sunt maiores perferendis vero harum officia labore quaerat assumenda vitae aperiam temporibus. Incidunt, repellendus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex expedita nostrum doloribus optio animi possimus nisi ducimus a illum. Quae animi dolorem delectus odio vel praesentium sunt at, doloribus natus!
+</main>
+<main>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates fugiat necessitatibus adipisci id, beatae recusandae sunt maiores perferendis vero harum officia labore quaerat assumenda vitae aperiam temporibus. Incidunt, repellendus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex expedita nostrum doloribus optio animi possimus nisi ducimus a illum. Quae animi dolorem delectus odio vel praesentium sunt at, doloribus natus!
+</main>
+</p>
+</body>
+</html>

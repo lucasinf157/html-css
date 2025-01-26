@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <hr>
+    <h2>Colocando vídeos internos</h2>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!--Primeiro ele tenta carregar os arquivos um por um-->
+    <video width="500"controls autoplay>
+         <source src="midia/Videotestehtmlmkv.m4v" type="video/mp4">
+         <source src="midia/videotestehtml1.mp4" type="video/mp4">
+         <source src="midia/videotestehtmlogv.ogv" type="video/ogg">
+        <p>Este vídeo não está compatível no seu navegador</p>
+        <!--Quanto maior a quantidade de vídeos no código, maior a compatibilidade com vários navegadores
+        Porém a hospedagem fica muito cara pra o cliente, usando esse tipo de tag -->
+    </video>
+    <h2>Colocando vídeos externos </h2>
+    <hr>
+    <h2>Como puxar vídeo do youtube</h2>
+    <p>Animações</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ru_3DkhqUX0?si=KGPztoRgwaxbDD0h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>ksdjkfsddsviojfaopjopjaopfjsadfhj9fhj9s0hjf90shjf90js90fj09sd</iframe>
+    <p>Outra animação</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D4FauN9jRog?si=3S3p_fC97ijRC2LY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2>Vídeos com o vimeo</h2>
+    <iframe src="https://player.vimeo.com/video/29315013?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
+</body>
+</html>

@@ -1,0 +1,39 @@
+Programar Cabeçalho e Menus
+
+min-height: 150px; - para dar altura ao cabeçalho
+text-align: center; - para alinhar texto ao centro
+padding-top: 40px; - para alongar cabeçalho
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267) - para sombras em títulos
+
+ font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+
+configuração header com variação
+
+ background-image: linear-gradient(to bottom, var(--cor03), var(--cor04));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+
+Configuração do menu
+
+nav > a
+{
+    color: white;
+    padding: 10px; separar margens
+    border-radius: 5px; bordas arredondadas
+    text-decoration: none; tirar o sublinhado
+    font-weight: bold; texto em negrito
+    transition-duration: 0.3s; - para passar o mouse por cima com animação
+}
+a:hover
+{
+    background-color: #2fa866;
+    color: #063d1e;
+}

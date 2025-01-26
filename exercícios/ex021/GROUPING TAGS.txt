@@ -1,0 +1,9 @@
+header - criar cabeçalhos
+( tag nav - colocar links do menu )
+main - conteúdo principal
+(tag section - para determinar e individualizar cada assunto no corpo do site
+tag article - para separar se quiser, as noticias e afins
+tag aside - para tratar de assuntos periféricos	
+footer - rodapé do site
+NAV - NAVEGAÇÃO
+> TAG FILHAS

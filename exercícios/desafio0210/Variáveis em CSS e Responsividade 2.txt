@@ -1,0 +1,101 @@
+Variáveis em CSS e Responsividade 
+
+:root {} _ tudo que colocar dentro da tag é usado pro documento inteiro
+:root
+{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor02: #3ddc84;
+    --cor03: #2fa866;
+    --cor04: #1a5c37;
+    --cor05: #063d1e;
+}
+variável de cores, caso quiser mudar algo, ou uma mudança muito brusca, usar o root para isso
+
+VARIAVEIS/
+
+:root
+{
+    --cor0:  #c5ebd6;
+    --cor1:  #83e1ad;
+    --cor02: #3ddc84;
+    --cor03: #2fa866;
+    --cor04: #1a5c37;
+    --cor05: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+
+}
+body
+{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+header>h1
+{
+    color: var(--cor03);
+    font-family: var(--fonte-destaque);
+}
+main h1
+{
+font-family: var(--fonte-android);
+}
+main h2{
+    font-family: var(--fonte-android);
+}
+*
+{} - tag para declaração geral do css
+
+Responsividade/Adaptar site a telas diferentes
+
+
+
+para adaptar site a celulares, ipads e afins
+<style>
+    body
+    {
+        background-color: gray;
+    }
+    main
+	{
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+
+        min-width: 280px;
+        max-width: 800px; - largura adaptável para cada site, depende das imagens
+        margin: auto;
+    }
+    img
+    {
+        width: 100%;
+    }
+
+Fazer imagens adaptáveis
+fazer uma pequena e uma maior para adaptar
+
+ADICIONANDO FOTO INTERNA PARA ADAPTAR:
+ 	<picture>
+            <source media="(max-width:600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina">
+        </picture>
+Para personalizar bordas
+ border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px;
+
+para reponsividade
+
+  background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+
+        min-width: 280px;
+        max-width: 800px;
+        margin: auto;
+    }
+    img
+    {
+        width: 100%;
+    }

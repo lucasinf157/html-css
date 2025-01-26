@@ -1,0 +1,16 @@
+Deixando textos e margens mais bonitas
+
+main p
+{
+    margin: 15px 0px; - para aumentar margem dos textos
+    text-align: justify; - para ajustar as linhas do texto
+    text-indent: 10px; para dar um espaço na primeira palavra do paragráfo
+    font-size: 1em; tamanho do texto
+    line-height: 2em; separação entre cada linha de texto
+
+main a {
+    text-decoration: none; para tirar sublinhado
+    font-weight: bold; para deixar texto em negrito
+    background-color: #83e1ad; - fundo de texto
+    color: #063d1e; cores
+    padding: 2px 5px; para separar e dar espaços

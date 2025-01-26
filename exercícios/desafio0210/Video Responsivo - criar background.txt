@@ -1,0 +1,23 @@
+Video Responsivo - criar background color para preencher o vídeo sobre ele,  assim a responsividade vai funcionar como uma gambiarra
+
+Envelopar iframe dentro de uma div
+colocar class na div
+top - distancia entre parte superior esquerda do vídeo à parte de cima
+left - distancia entre parte superior esquerda do vídeo à parte lateral
+
+div.video
+{
+    background-color: rgb(177, 65, 65);
+    margin: 0px -8px 15px -20px;
+    position: relative;
+    padding-bottom: 59%;
+    border-radius: 8px 8px 5px 5px;
+}
+div.video > iframe 
+{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

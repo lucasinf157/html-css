@@ -1,0 +1,37 @@
+BOX MODEL - MODELO DE CAIXAS EM HTML E CSS
+
+um <h1> tem uma caixa, vamos só configurar essas caixas e modelar no aninhamento 
+height > altura
+width > largura
+padding - alcochoamento/preenchimento - usado para estilizar bordas (espaço interno, da borda a letra)
+margin - da borda pra fora, margem para separar boxs e dar espaço
+outline - tracejado junto com margin ( contorno, traçado)
+
+* tipos de caixa
+box level - após adicionado, ele cria uma caixa na linha abaixo, numa nova linha, sempre ocupa a largura total da tela
+(uso para quebrar a linha e adicionar caixa embaixo)
+inline level - dá continuidade ao conteúdo, adiciona a caixa ao lado do texto ou paragráfo/ independente
+(uso para adicionar ao lado, paa completar textos/ mais flexível)
+
+ h1 
+        {
+            background-color: #EEC6CA ;
+            height: 300px; altura do box
+            width: 300px; largura do box
+            color: #2c1252; cor da fonte
+            border-width: 10px; largura da sombra do box
+            border-style: solid; estilo do quadro
+            border-color: #b78bb2; cor do quadro
+            font-size: 1.6em;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 12px; define largura pra cima do box
+            padding-right: 1px; define largura pra direita do box
+            padding-bottom: 1px; define largura pra baixo do box
+            padding-left: 15px; define largura pra esquerda do box
+        }
+        a{
+            border-width: 5px;
+            border-style: solid;
+            border-color: #daa3d4;
+
+DEVTOOLS INSPENCIONAR, PARA USAR COMO DEMONSTRAÇÃO DE TXT

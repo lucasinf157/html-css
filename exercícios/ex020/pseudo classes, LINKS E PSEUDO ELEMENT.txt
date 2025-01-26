@@ -1,0 +1,53 @@
+pseudo classes
+DIVS
+height : ALTURA
+width : LARGURA
+border : px-tamanho, solid, black > cor
+display - inline block > tudo na mesma linha
+.. são pseudoclasses
+
+div:hover - pseudoclasse em que você determina o estado da div ao passar o mouse por cima
+div>p
+> significa que o <p> é filho da div
+
+Links aula 2
+
+pseudo class para link : a:visited > para sites já vistos
+text decoration : none - para tirar sublinhados dos links
+
+Para passar o mouse e sublinhar na mesma hora : a:hover {
+        text-decoration: underline;
+    }
+ Para quando clicar no link e segurar ele estar nesta cor :
+:active{
+        color: aqua;
+    }
+PSEUDOELEMENTOS :
+:: sendo representado por dois pontos após a tag exemplo : a::active
+
+Para colocar a palavra link dps de um link, semântica para reconhecer que é um link
+a::after{
+        content: '[link]';
+        text-decoration: none;
+        font-weight: normal;
+        color: rgb(27, 18, 4);
+    }
+Para colocar emojis e símbolos html nos links
+ a::before {
+        content: '❯';]
+ a::after {
+        content: '❮';
+
+Para dizer que só um link é importante
+Criar class com nome para só aquele link
+DENTRO DA TAG NO HTML EX:
+<tag class"especial"<tag>
+
+SIGNIFICADO DE TAGS/SELETORES PERSONALIZADOS
+  
+    # = id
+    . = class
+    := pseudoclass
+    ::=pseudo element
+    > = clildren
+    
