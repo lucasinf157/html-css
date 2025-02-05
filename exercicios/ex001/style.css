@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*
+MODIFICAÇÃO FEITA EM 31/01/25*/
+
+body
+{
+    height: 100vh;
+    background-image: url('wallpaper005.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.p1
+{
+
+    background-image: url('eulucas.webp');
+    border-radius: 10px 5px red;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 98vh;
+    background-size: 250px;
+    border: 3px dashed black;
+    background-color: #f1e2e2;
+}
+
+#luq
+{
+    min-height: 800px;
+    background-image: url('euluquita.webp');
+    background-attachment: fixed;
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px -1px 5px 3px rgb(14, 14, 0) ;
+}
+#fimdoefeito
+{
+    background-color: #f1e2e2;
+    padding-bottom: 50px;
+    box-shadow: 2px -3px 6px -4px;
+
+}
+#fimdoefeito p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 1.6em;
+
+}
