@@ -8,11 +8,23 @@
     <style> 
         body 
         {background-color: rgb(0, 162, 255);}
+    @keyframes piscar {
+      0% { background-image: url(fotobonitas.jpg)}
+      50% { background-image: url(faviicon\ titulo1.png) }
+      100% { background-image: url(fotobonitas.jpg); }
+    }
+
+    .elemento {
+      width: 300px;
+      height: 300px;
+      animation: piscar 5s infinite;
+      margin: auto;
+    }
     </style>
     
     </head>
     <body>
-
+        <div class="elemento"></div>
     <h1>Título 1 principal</h1>
     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nostrum soluta, repellendus totam vel quaerat, suscipit doloribus temporibus quam facere neque cum nobis accusantium optio quibusdam saepe necessitatibus error. Soluta.</p>   
     <hr>    
