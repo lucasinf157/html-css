@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        p
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.1em;
+            text-indent: 5px;
+            text-align: justify;
+
+        }
+        table
+        {
+    
+            width: 400px;
+            border-collapse: collapse;
+            background-color: rgb(239, 239, 204);
+        }
+        caption
+        {
+            width: 400px;
+            border-collapse: collapse;
+            border: 2px solid black;
+            padding: 10px;
+            background-color: beige;
+        }
+        caption:hover
+        {
+            background-color: rgb(69, 61, 77);
+            color: white;
+            transition-duration: 1.2s;
+        }
+        th, td
+        {
+            border: 2px solid black;
+            padding: 10px;
+        }
+        img
+        {
+            width: 170px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pedido Hotdog</h1>
+    <!-- 
+       - atributos do form 
+        post - cadastro
+        get- busca 
+        action - pra onde vai enviar-->
+    <form method="post" action="teste.html">
+
+      Nome: <input type="text" name="Nome" placeholder="Digite seu nome"> <br>
+      Email <input type="email" name="Email" placeholder="Digite seu email"> <br>
+      Tamanho : 
+      <input type="radio" name="tamanho" value="P"> Pequeno 
+      <input type="radio" name="tamanho" value="M"> Médio
+      <input type="radio" name="tamanho" value="G"> Grande
+      <br>
+      <p>Sabores</p>
+
+    <select name="sabor" id="">
+        <option>Calabresa</option>
+        <option>Três Queijos</option>
+        <option>Atum</option>
+        <option>Portuguesa</option>
+    </select>
+
+    <p>Adicionais</p>
+
+    <input type="checkbox" name="borda" value="sim"> Borda
+    <input type="checkbox" name="queijo"value="sim"> Queijo extra
+
+    <p>Data Entrega</p>
+
+    <input type="date" name="dataEntrega"> <br>
+
+    <p>Comentários</p>
+    <textarea name="mensagem" rows="10" cols="30"></textarea> <br>
+    <input type="submit">
+</form>
+
+<h1>1 Tabela</h1>
+
+    <table>
+
+        <caption>Economia Mensal</caption>
+
+        <tr>
+            <th>Mês</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>Janeiro</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Fevereiro</td>
+            <td>$200</td>
+        </tr>
+    </table>
+ <br>
+    <h1>2 Tabela</h1>
+    <table>
+
+       <thead> <tr>
+            <td colspan="6" style="text-align: center;">1 item</td>
+        </tr> 
+        </thead>
+
+        <tbody>
+            <tr>
+             
+             <td colspan="3">2 item</td>
+             <td colspan="3">3 item</td>
+        <tr>
+            <td>4 item</td>
+            <td colspan="3">5 item</td>
+            <td>6 item</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <h1>Tabela com fotos</h1>
+    
+        <table>
+            <tr>
+                <th>Gatos</th>
+                <th>Cachorros</th>
+            </tr>
+           <tr>
+            <td>
+                <img src="gato1.jpg" alt="gatos"> </td>
+            <td> <img src="cachorro1.jpg" alt="">></a></td>
+           </tr>
+        
+        </table>
+    
+
+        <h1>Jogos</h1>
+        <img src="mario.png" alt="mario">
+        <p>
+
+            Mario (マリオ, Mario) é um personagem fictício da franquia e série de jogos eletrônicos Mario da Nintendo, criado pelo desenvolvedor e designer de jogos eletrônicos japonês Shigeru Miyamoto. Servindo como mascote da Nintendo e protagonista homônimo da série, Mario já apareceu em mais de 200 jogos desde sua criação.</p>
+            <h1>Principais Jogos</h1>
+
+            <ul>
+                <li>Nintendo
+                    <ul>
+                        <li>Super Bros</li>
+                        <li>Super Bros 2</li>
+                    </ul>
+                </li>
+
+
+                <br>
+
+
+                <li> Super Nintendo
+                    <ul>
+                        <li>Super Mario Bros 3</li>
+                        <li>Super Bros 4</li>
+                        <br>
+                    </ul>
+                </li>
+
+                <li> Super Nintendo World</li>
+                <ul>
+                    <li>Mario Bros 5</li>
+                    <li>Mario Bros Kart 9</li>
+                </ul>
+            </ul>
+        <br>
+            <a href="https://x.com/nintendoamerica">Twitter</a>
+            <a href="https://www.facebook.com/SuperMario/">Facebook</a>
+            <a href="https://www.instagram.com/lucascastroinf/">Instagram</a>
+         </body>
+        </html>
