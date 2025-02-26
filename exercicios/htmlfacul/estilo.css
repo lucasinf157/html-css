@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body
+{
+    background-color: rgb(255, 225, 180);
+}
+.q1
+{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.q2
+{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.q3
+{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.q4
+{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+}
+
+.imagem
+{
+    background-image: url("cachorro1.jpg");
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    display: block;
+}
+.imagem:hover
+{
+    background-position: 0px 50px;
+}
+.imagem:active
+{
+   background-position:  50px 2px;
+}
+.h1li
+{
+    list-style: disc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+    color: beige;
+}
+.h2li
+{
+    list-style: disc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+    color: beige;
+}
+.imp
+{
+    background-color: cyan;
+}
+.par
+{
+    background-color: rgb(255, 242, 0);
+}
+input {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+.problema
+{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin: 0px;
+}

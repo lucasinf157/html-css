@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação JavaScript</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <p id="para1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod fugiat qui eum cupiditate voluptatum sunt esse ut, deleniti velit maiores?   Dolore maiores blanditiis veritatis consequatur nesciunt reprehenderit aut vero soluta!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni numquam necessitatibus, quo laborum voluptatem possimus quisquam? Aliquid amet corrupti aperiam non laboriosam, fugit, omnis eveniet repellendus vel corporis incidunt.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat id nihil reprehenderit consequuntur tempora mollitia error quidem doloribus quia assumenda! Cum eaque quos temporibus doloremque amet laborum voluptatem delectus nihil!
+    </p>
+    <button onclick="document.getElementById('para1').innerHTML='Ola'">Clique aqui</button> <br><br>
+    <button id="botao">Clique aqui agora</button>
+
+
+    <h1>Minha calculadora</h1>
+    <input id="campo1" type="text">
+    <input id="campo2" type="text">
+    <select id="operaçao">
+        <option>somar</option>
+        <option>subtrair</option>
+        <option>multiplicar</option>
+        <option>dividir</option>
+    </select>
+    <br>
+    Resposta : <div id="resposta" class="problema"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
