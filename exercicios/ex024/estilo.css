@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body
+{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+iframe
+{
+    border: 2px solid white;
+    width: 450px;
+    height: 450px;
+}
+p
+{
+    color: white;
+    padding-left: 140px;
+}
+.negrito
+{
+    font-weight: bold;
+}
