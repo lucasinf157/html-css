@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #tela
+        {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero totam repudiandae quis assumenda, dignissimos aliquid, ullam quibusdam quo voluptatem quod consequatur autem cupiditate reiciendis obcaecati error! Quae nam expedita nostrum?</p>
+    <ul>
+        <li> <a target="frame" href="paginas-extras/pagina001.html">Primeira página</a></li>
+        <li> <a target="frame" href="paginas-extras/pagina002.html">Segunda página</a></li>
+        <li> <a target="frame" href="paginas-extras/pagina003.html">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe in nobis sint accusantium beatae maiores perferendis illum sunt aut temporibus necessitatibus, culpa voluptas iusto et rem explicabo itaque repudiandae fugit.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Clique e escolha sua página.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, neque aliquam maiores rerum iusto magnam blanditiis reprehenderit nihil fugit earum illo modi quis tempore corrupti incidunt rem ea laborum. Soluta?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magni, eius, assumenda odio, illo hic exercitationem sed fugit odit ad dicta facere aspernatur qui ab id porro sit quae libero!
+            </p><img src='imagens/eulucaskrl.webp'"
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, neque aliquam maiores rerum iusto magnam blanditiis reprehenderit nihil fugit earum illo modi quis tempore corrupti incidunt rem ea laborum. Soluta?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit magni, eius, assumenda odio, illo hic exercitationem sed fugit odit ad dicta facere aspernatur qui ab id porro sit quae libero!
+        </p>
+    
+</body>
+</html>
