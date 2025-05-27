@@ -4,14 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php"> <!--autocomplete="off" para evitar sugestões de pesquisa-->
+        <h1 id="one">Meu primeiro formulário GET</h1>
+        <form action="cadastro.php" method="get"> <!--autocomplete="off" para evitar sugestões de pesquisa-->
         <p><label for="inome">Nome:</label> <input type="text" name="Nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
         <!--label - conectar e fazer ligações entre os inputs e as caixinhas-->
+        <!--methodo get : informações não sensíveis (exemplo : nome, sobrenome (permitindo enviar dados até 3000bytes (letras) ))
+            methodo post : informações sensíveis (exemplo : senha, cartão)-->
     </form>
+
+    <h1 id="one">Meu primeiro formulário POST</h1>
+    <form action="cadastro.php" method="post"><!--autocomplete="off" para evitar sugestões de pesquisa-->
+        <p><label for="iemail">Email:</label> <input type="email" name="Email" id="iemail"></p>
+        <p><label for="isobrenome">Senha:</label> <input type="password" name="senha" id="isenha"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+     <!--required : fazer campo ser obrigatório
+        minlength= minimo de letras para campo
+        maxlength- maximo de letras para campo
+        size - tamanho da caixa/definido por quantidades de letras nela
+        placeholder- colocar dicas dentro das caixas=-->
 </body>
 </html>
