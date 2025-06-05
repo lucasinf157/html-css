@@ -1,14 +1,5 @@
 @charset "UTF-8";
-  *
+    legend
     {
-        background-color: rgb(255, 255, 255);
         font-family: Arial, Helvetica, sans-serif;
-    }
-    #one
-    {
-        color: rgb(85, 87, 84);
-    }
-    #two
-    {
-        color: rgb(85, 87, 84);
     }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 4</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="30" placeholder="Nome completo" autocomplete="name">
+    
+        </p>
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="Email" id="iemail" autocomplete="email" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="telefone" id="itel" autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$" placeholder="(xx)xxxx-xxxx">
+                <!--^[0-9]{4}- significa que os 4 primeiros digitos seguidos de um traço conterão de 0 a 9 digitos -->
+            </p>
+            </fieldset>
+             <p>
+                <h2>Exemplo com 3 digitos acompanhados de um traço</h2>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="telefone" id="itel" autocomplete="tel" pattern="^[0-5]{3}-[0-5]{3}$" placeholder="(xx)xxxx-xxxx">
+                <!--^[0-5]{3}- significa que os 3 primeiros digitos seguidos de um traço conterão de 0 a 5 digitos -->
+            </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        <!--Estudar mais sobre RegEx-->
+        <!--fieldset > agrupamento de dados
+            legend - legenda agrupada ao quadro do fieldset-->
+    </form>
+</body>
+</html>
