@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado :</label>
+            <select name="estado" id="iest">
+                <optgroup label="Região Sudeste"> <!--AGRUPAMENTO DE DADOS DA REGIÃO SUL PARA USUÁRIO-->
+                    <option value="RJ">Rio de janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Região Nordeste"> <!--AGRUPAMENTO DE DADOS DA REGIÃO SUL PARA USUÁRIO-->
+                    <option value="PE">Pernambuco</option>
+                    <option value="BA" selected>Bahia</option>
+                    <option value="CE">Ceará</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão :</label>
+            <input type="text" name="profissao" id="iprof" list="listp">
+            <datalist id="listp">
+                <option value="ADV">Advogado :</option>
+                <option value="DEV">Desenvolvedor:</option>
+                <option value="AÇO">Açougueiro :</option>
+                <option value="TEC">Técnico :</option>
+                <option value="CIE">Cientista :</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem: </label><br> <!--só posso usar method post-->
+            <textarea name="Mensagem" id="imsg" cols="20" rows="10" placeholder="Sua mensagem:"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
